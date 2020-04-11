@@ -1,13 +1,23 @@
 apiVersion: v1
 entries:
+  child1:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-11T15:21:03.4723146+09:00"
+    description: A Helm chart for Kubernetes
+    digest: e4c4d3d6452fcedb605b4c10749b07899e441da5c6723da4a3ad4bec17884613
+    name: child1
+    urls:
+    - child1-0.1.0.tgz
+    version: 0.1.0
   child2:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-11T15:06:28.7342111+09:00"
+    created: "2020-04-11T15:21:03.4732915+09:00"
     description: A Helm chart for Kubernetes
     digest: 06c3a88e634834dbaaf6eca60623598b62d30d8daead75adc2cda60c913b21b8
     name: child2
     urls:
     - child2-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-11T15:06:28.7332343+09:00"
+generated: "2020-04-11T15:21:03.4723146+09:00"
